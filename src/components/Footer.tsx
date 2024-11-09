@@ -16,23 +16,23 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" passHref>
-                  <a className="text-gray-400 hover:text-white">Home</a>
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" passHref>
-                  <a className="text-gray-400 hover:text-white">About</a>
+                <Link href="/about" className="text-gray-400 hover:text-white">
+                  About
                 </Link>
               </li>
               <li>
-                <Link href="/projects" passHref>
-                  <a className="text-gray-400 hover:text-white">Projects</a>
+                <Link href="/projects" className="text-gray-400 hover:text-white">
+                  Projects
                 </Link>
               </li>
               <li>
-                <Link href="/contact" passHref>
-                  <a className="text-gray-400 hover:text-white">Contact</a>
+                <Link href="/contact" className="text-gray-400 hover:text-white">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -42,32 +42,24 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <Link
+                <a
                   href="https://github.com/Mahmoud-AbdElaziz-Hamed"
-                  passHref
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white"
                 >
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    GitHub
-                  </a>
-                </Link>
+                  GitHub
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://www.linkedin.com/in/mahmoud-abd-elaziz93"
-                  passHref
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white"
                 >
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    LinkedIn
-                  </a>
-                </Link>
+                  LinkedIn
+                </a>
               </li>
             </ul>
           </div>
