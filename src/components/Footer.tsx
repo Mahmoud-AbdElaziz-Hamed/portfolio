@@ -42,24 +42,32 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="https://github.com/Mahmoud-AbdElaziz-Hamed"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white"
+                  passHref
                 >
-                  GitHub
-                </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    GitHub
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.linkedin.com/in/mahmoud-abd-elaziz93"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white"
+                  passHref
                 >
-                  LinkedIn
-                </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    LinkedIn
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
