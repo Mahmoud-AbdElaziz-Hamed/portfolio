@@ -12,6 +12,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        scroll: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(8px)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 2s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
