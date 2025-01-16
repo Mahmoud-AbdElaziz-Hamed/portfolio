@@ -13,13 +13,30 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
+      title: "Ayadty",
+      description:
+        "Clinic management system, Streamlines operations, patient records, appointments, billing, and staff management in clinics for improved efficiency and patient care.",
+      technologies: ["Next", "mui"],
+      imageUrl: "/Ayadty.png",
+      githubUrl: "",
+      liveUrl: "https://ayadty.com/",
+    },
+    {
+      title: "Kyanlabs",
+      description:
+        "A cutting-edge web application developed to provide streamlined digital solutions tailored for business needs, with a focus on delivering a responsive and user-friendly interface.",
+      technologies: ["Next", "Tailwind"],
+      imageUrl: "/KyanLabs.png",
+      liveUrl: "https://kyanlabs.com/en",
+      githubUrl: "",
+    },
+    {
       title: "Messenger Web App",
       description:
         "A real-time messaging application built with React and Socket.io, featuring instant messaging, user authentication, and message history.",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
       imageUrl: "",
       githubUrl: "https://github.com/Mahmoud-AbdElaziz-Hamed/messenger-webapp",
-      //   liveUrl: "https://messenger-webapp.vercel.app"
     },
     {
       title: "Electronix-Store",
@@ -41,8 +58,6 @@ export default function Projects() {
 
   return (
     <section className="py-20 bg-gray-50">
-      {" "}
-      {/* Added bg-gray-50 here */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl text-black font-bold text-center mb-12">
           Projects
